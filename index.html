@@ -11,6 +11,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+<style>
+    .skills-table {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-left: 20%;
+    }
+
+    .column {
+        padding: 10px;
+        margin-right: 10px; /* Adjusted margin for better spacing */
+        border: 1px solid #ccc;
+    }
+</style>
+
 <body class="main-content">
     <header class="container header active" id="home">
         <div class="header-content">
@@ -33,136 +48,44 @@
             <div class="main-title">
                 <h2>About <span>me</span><span class="bg-text">About me</span></h2>
             </div>
+            <br><br><br>
             <div class="about-container">
                 <div class="left-about">
                     <h4>Information About me</h4>
-                    <p>
-                        "Hello, I'm Nithushna Sivarasa, an A-level graduate and a proud student of the UKI Coding School. I'm on an exciting journey to become a full stack web developer. With a strong foundation in HTML, CSS, and Bootstrap, I'm now delving into the world of JavaScript. I'm passionate about creating beautiful and functional web experiences. I'm eager to learn and collaborate with fellow developers to make a mark in the web development world. 
-                    </p>
-                    
+                    <p  style="text-align: justify; line-height: 4vh;">
+                        Hello, I'm Nithushna Sivarasa, an A-level graduate  with a strong foundation in biosystems technology, agriculture science, and science for technology. I'm currently a student at UKI Coding School, where I've successfully completed the MERN stack, mastering MongoDB, Express, React, and Node.js for full-stack web development.                    
                 </div>
-                <div class="right-about  row" style="margin-left: 20%;" >
+                <div class="right-about  row" style="margin-left: 20%; margin-top: 10%;" >
                     <div class="col-sm-6">
-                    <h1>Full Name :<br>  SivarasaNithushna </h1><hr>
+                    <p>Full Name :<br>  Sivarasa Nithushna </p><hr>
                     <br>
-                    <h1>Email : <a href="sivarasanithushna@gmail.com">sivarasanithushna@gmail.com</a> </h1><hr>
+                    <p>Email : <a href="sivarasanithushna@gmail.com">sivarasanithushna@gmail.com</a> </p><hr>
                     <br>
-                    <h1>Website :<a href="https://nithushna-s.github.io/SivarasaNithushna-Portfolio">SivarasaNithushna-Portfolio</a></h1><hr>
+                    <p>Website :<a href="https://nithushna-s.github.io/SivarasaNithushna-Portfolio">SivarasaNithushna-Portfolio</a></p><hr>
                     <br>
                     <!-- <div class="empty"></div> -->
                 </div>
             </div>
-            <div class="about-stats">
-                <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">Html5</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">CSS3</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Bootstrap</p>
-                        <div class="progress-con">
-                            <p class="prog-text">50%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">JavaScript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">20%</p>
-                            <div class="progress">
-                                <span class="react"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Figma
-                            </p>
-                        <div class="progress-con">
-                            <p class="prog-text">60%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Trello & Slack</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Visual Studio Code</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">GitHub</p>
-                        <div class="progress-con">
-                            <p class="prog-text">60%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+           
             </div>
-            <div class="about-stats" style="margin-left: 10%; margin-right: 40%;">
-                <h4 class="stat-title"> Soft Skills</h4>
-                <div class="progress-bars" style=" margin-right: 25%;"><BR>
-                    <div class="progress-bar">
-                        <p class="prog-title">Time management</p>
-                    </div><BR>
-                    <div class="progress-bar">
-                        <p class="prog-title"> Collaboration</p>
-                    </div><BR>
-                    <!-- <div class="progress-bar">
-                        <p class="prog-title">Communication</P>
-                    </div> -->
-                </div>   
-            </div>
-            <!-- <p >communication</p>
-            <p >communication</p>
-            <p> collaboration</p> -->
+           
             <div class="progress-bar">
                 <h1>Education</h1>
+                <br>
             <div class="timeline">
-                <div class="timeline-item">
+                <div class="timeline-item" style=" margin-bottom: 25%;">
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
                     <p class="tl-duration">2020 </p>
                     <h5><span> A/l</span></h5>
                     <p>
-                        .Bio System Technology -c
-                        .Science for Technology-c
+                        .Bio System Technology -c <br>
+                        .Science for Technology-c <br>
                         .Agriculture Science-c
                     </p>
                 </div>
-                <div class="timeline-item">
+                <div class="timeline-item" style="margin-left: 20%; margin-bottom: 25%;">
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
@@ -172,46 +95,47 @@
                         .  Full-Stack Web Development
                     </p>
                 </div>
-                <!-- <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2016 - 2017</p>
-                    <h5>C++ Programmer<span> - Slime Tech</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
+                <div class="timeline-item column" >
+                    <h2 >Front-end Skills</h2><br>
+                    <ul>
+                        <!-- <li>HTML5</li>
+                        <li>CSS3</li> -->
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
                 </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2009 - 2013</p>
-                    <h5>Business Degree<span> - Sussex University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
+                
+                <div class="timeline-item column" style="margin-left: 20%;" >
+                    <h2>Back-end Skills</h2><br>
+                    <ul>
+                        <li>Nodejs</li>
+                        <li>MongoDB</li>
+                        <li>Express.js</li>
+                    </ul>
                 </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2013 - 2016</p>
-                    <h5>Computer Science Degree<span> - Brookes University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
+             
+                <div class="timeline-item column" >
+                    <h2>Other Technical Skills</h2><br>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Trello & Slack</li>
+                        <li>Visual Studio Code</li>
+                        <li>GitHub</li>
+                    </ul>
                 </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2017 - present</p>
-                    <h5>3d Animation<span> - Brighton University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div> -->
+            
+                <div class="timeline-item column" style="margin-left: 20%;">
+                    <h2>Soft Skills</h2><br>
+                    <ul>
+                        <li>Time Management</li>
+                        <li>Collaboration</li>
+                        <li>Communication</li> 
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+               
             </div>
         </section>
         <section class="container" id="portfolio">
@@ -340,22 +264,24 @@
                 <div class="blogs">
                     <div class="blog">
                         <a href="https://nithushna-s.github.io/Digital-Clock/">
-                        <img src="./img/61RoLAi518L._AC_UF1000,1000_QL80_.jpg" alt="Digital-Clock">
+                        <img src="./img/images.jpeg" alt="Digital-Clock">
                         </a>
                         <div class="blog-text">
                             <h4>
                                 Digital-Clock
                             </h4>
+                            <p>JavaScript</p>
                         </div>
                     </div>
                     <div class="blog"  >
                         <a href="https://nithushna-s.github.io/Calculator-/">
-                        <img src="./img/2work.webp" alt="Calculator">
+                        <img src="./img/Calculator.png" alt="Calculator">
                         </a>
                         <div class="blog-text">
                             <h4>
                                 Calculator
                             </h4>
+                            <p>JavaScript</p>
                         </div>
                     </div>
                     <div class="blog">
@@ -366,43 +292,110 @@
                             <h4>
                                Weather App
                             </h4>
+                            <p>React , Nodejs</p>
                         </div>
                     </div>
                     <div class="blog">
                         <a href="https://nithushna-s.github.io/todolist/">
-                        <img src="./img/todo.jpg" alt="todopic">
+                        <img src="./img/todo-list-.jpg" alt="todopic">
                     </a>
                         <div class="blog-text">
                             <h4>
                                ToDo App
                             </h4>
-                            
+                            <p>React , Nodejs</p>
                         </div>
                     </div>
-                    <!-- <div class="blog">
-                        <img src="img/port1.jpg" alt="">
+                     <div class="blog">
+                        <a href="https://nithushna-s.github.io/Guess-the-Number-Game/">
+                        <img src="img/Number-Guessing-Game-Using-JavaScript.jpg" alt="Guess-the-Number-Game">
                         <div class="blog-text">
-                            <h4>
-                                Get started with Web Design and UI Design
+                            <h4>Guess-the NumberGame
                             </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
+                        </a>
+                            <p>JavaScript</p>
                         </div>
-                    </div>
+                    </div> 
+
                     <div class="blog">
-                        <img src="img/port3.jpg" alt="">
+                        <a href="
+                        https://nithushna-s.github.io/Movie-Search-App">
+                        <img src="./img/movie.png" alt="Movie-Search">
+                        <div class="blog-text">
+                            <h4>Movie-Search
+                            </h4>
+                        </a>
+                            <p>JavaScript</p>
+                        </div>
+                    </div> 
+                     
+                    <div class="blog">
+                        <a href="
+                        https://nithushna-s.github.io/calendar/">
+                        <img src="./img/calendar.png" alt="calendar">
                         <div class="blog-text">
                             <h4>
-                                This is what you need to know about Web Design
+                         Calendar 
                             </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
+                        </a>
+                            <p>JavaScript</p>
                         </div>
-                    </div> -->
+                    </div>
+
+                    <div class="blog">
+                        <a href="https://nithushna-s.github.io/Music-Player/">
+                        <img src="./img/Music-Player.png" alt="Music-Player">
+                        <div class="blog-text">
+                            <h4>
+                                Music-Player 
+                            </h4>
+                        </a>
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+
+                    <div class="blog">
+                        <a href="https://nithushna-s.github.io/text-to-speech/">
+                        <img src="./img/text-to-speech.jpg" alt="text-to-speech">
+                        <div class="blog-text">
+                            <h4>
+                          text-to-speech
+                            </h4>
+                        </a>
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+
+                    <div class="blog">
+                        <a href="https://nithushna-s.github.io/color-palette/">
+                        <img src="./img/colors.webp" alt="color-palette">
+                        <div class="blog-text">
+                            <h4> color-palette </h4>
+                        </a>
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+
+                    <div class="blog">
+                        <a href=" https://nithushna-s.github.io/Image-Slider/">
+                        <img src="./img/Image-Slider.jpg" alt="Image-Slider">
+                        <div class="blog-text">
+                            <h4>  Image-Slider</h4>
+                        </a>
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+
+                    <div class="blog">
+                        <a href="https://nithushna-s.github.io/CAPTCHA/">
+                        <img src="./img/Captcha.jpg" alt="Captcha">
+                        <div class="blog-text">
+                            <h4>Captcha</h4>
+                        </a>
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
