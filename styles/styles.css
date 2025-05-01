@@ -910,7 +910,6 @@ section {
 /*# sourceMappingURL=styles.css.map */
 .column {
   padding: 10px;
-  border: 1px solid #ccc;
   text-align: center;
   display: flex;
   flex-direction: column;
